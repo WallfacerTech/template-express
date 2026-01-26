@@ -10,6 +10,7 @@ Minimal Node.js API with Express and TypeScript.
 - **Prisma** for database ORM
 - **PostgreSQL** database
 - **Jest** for testing
+- **Zod** for validation
 
 ## Getting Started
 
@@ -19,6 +20,9 @@ npm install
 
 # Copy environment file
 cp .env.example .env
+
+# Initialize Prisma
+npx prisma generate
 
 # Run database migrations
 npx prisma migrate dev

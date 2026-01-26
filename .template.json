@@ -1,9 +1,0 @@
-{
-  "name": "Express",
-  "description": "Minimal Node.js API with Express and TypeScript",
-  "tags": ["typescript", "node", "api", "rest"],
-  "language": "typescript",
-  "testCommand": "npm test",
-  "updateCommand": "npm update",
-  "devCommand": "npm run dev"
-}
